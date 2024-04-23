@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="relogio.js" lang="JavaScript"></script>
+</head>
+<body>
+    
+    <form>
+        <h1>Meu Relógio</h1>
+        
+        <p>Dia<input type="text" id="txtdia" disabled> Mês <input type="text" id="txtmes" disabled> Ano <input type="text" id="txtano" disabled></p>
+
+        <p>Nomê do mês: <input type="text" id="mesext" disabled></p>
+        
+        <p>Hora<input type="text" id="txthora" disabled>Minutos<input type="text" id="txtmin" disabled>Segundos<input type="text" id="txtseg" disabled></p>
+        
+        <p>Dia da semana: <input type="text" id ="semaext" disabled></p>
+        <br>
+        
+        <p>Status</p>
+        <input type="text" id="status" disabled><br><br>
+        
+        
+        <input type="button" id="exibir" value="Exibir" onclick="Exibir()">
+        
+        <input type="button" id="parar" value="Parar relógio" onclick="PareRelogio()">
+        
+        <input type="reset" id="limpar" value="Limpar relógio" onclick="PareRelogio()">
+    </form>
+</body>
+</html>
